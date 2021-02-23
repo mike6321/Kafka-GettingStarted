@@ -18,9 +18,8 @@ import java.util.Properties;
  */
 @Component
 public class SimpleProducer {
-//    @Value("${junwoo.topic.name}")
+
     private static String TOPIC_NAME = "junwoo";
-//    @Value("${junwoo.bootstrapAddress}")
     private static String BOOTSTRAP_SERVERS = "18.224.200.228:9092";
 
     public static void main(String[] args) {
